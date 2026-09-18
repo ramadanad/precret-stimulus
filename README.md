@@ -1,7 +1,7 @@
 # precret-stimulus
 
 This repository contains the MATLAB and Psychtoolbox code used to generate and
-present the visual stimulus for the **9.4 Tesla Dataset for Precision Retinotopy in the Human Brain**.
+present the visual stimulus for the **A 9.4 Tesla Dataset for Precision Retinotopy in the Human Brain**.
 
 The stimulus paradigm is adapted from the publicly available code by
 [Sam Schwarzkopf](https://osf.io/9tqjn/). Please consult the original resource
@@ -15,9 +15,7 @@ Please report issues or questions to
 
 ## Paper and analysis code
 
-The stimulus paradigm was used for the following paper:
-
-> *9.4 Tesla Dataset for Precision Retinotopy in the Human Brain* — [link to the paper or preprint](INSERT_PAPER_URL)
+A link to the corresponding paper will be available here upon acceptance.
 
 The preprocessing and analysis code are available in the
 [`precret-manuscript`](https://github.com/ramadanad/precret-manuscript.git) repository.
@@ -26,10 +24,10 @@ The preprocessing and analysis code are available in the
 
 The stimulus code was developed and run using:
 
-- MATLAB R2024b.
-- Psychtoolbox 3.0.20.
+- MATLAB R2024b
+- Psychtoolbox 3.0.20
 
-The code was written for use with the 9.4 T MRI scanner at the Max Planck
+The code was written for use at the 9.4 T MRI scanner at the Max Planck
 Institute for Biological Cybernetics in Tübingen, Germany. Running it on a
 different scanner or experimental setup will require changes to the 
 display, or scanner-trigger configuration.
@@ -43,7 +41,7 @@ The main stimulus script is:
 bars_dr.m
 ```
 
-This script can be modified to configure the stimulus run and calls the
+This script can be modified to configure the stimulus run. It calls the
 `map_bars.m` function to generate the bar sequence.
 
 A typical function call is:
